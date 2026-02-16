@@ -8,7 +8,8 @@ This repository contains an example agent built with the Application Development
 gcloud services enable aiplatform.googleapis.com \
     artifactregistry.googleapis.com \
     cloudbuild.googleapis.com \
-    run.googleapis.com --project $PROJECT_ID
+    run.googleapis.com \
+    secretmanager.googleapis.com --project $PROJECT_ID
 ```
 
 ## MCP Servers
